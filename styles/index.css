@@ -19,7 +19,8 @@ body {
 
 body {
   color: var(--gray900);
-  background: var(--gray75);
+  background-color: #f86460;
+  /* background: var(--gray75); */
 }
 
 .zh-CN {
