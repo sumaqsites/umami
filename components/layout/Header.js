@@ -23,7 +23,9 @@ export default function Header() {
       <header className={classNames(styles.header, 'row')}>
         <div className={styles.title}>
           <Icon icon={<Logo />} size="large" className={styles.logo} />
-          <Link href={pathname.includes('/share') ? HOMEPAGE_URL : '/'}>Sumaq Sites Analytics</Link>
+          <Link className={styles.link} href={pathname.includes('/share') ? HOMEPAGE_URL : '/'}>
+            Sumaq Sites Analytics
+          </Link>
         </div>
         <HamburgerButton />
         {user && (

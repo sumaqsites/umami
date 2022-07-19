@@ -7,14 +7,19 @@
 
 .title {
   flex: 1;
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-normal);
   display: flex;
   align-items: center;
   line-height: 1.4;
+  font-weight: 600;
 }
 
 .logo {
   margin-right: 12px;
+}
+
+.link {
+  color: var(--gray100) !important;
 }
 
 .links {
